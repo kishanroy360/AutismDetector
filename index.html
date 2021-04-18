@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="syles.css">
+</head>
+<body>
+    <main>
+        <header class="header">
+          <h1 id="title">Autism Checker</h1>
+          <p id="description">Finding the percentage that you might have autism</p>
+        </header>
+        <form class="survey" id="survey-form">
+          <div class="survey-question">
+            <input type="text" name="name" id="name" placeholder="Enter your name" required>
+            <label for="name" id="name-label">Full Name: (Required)</label>
+          </div>
+          <div class="survey-question">
+            <input type="email" name="email" id="email" placeholder="Enter your email" required>
+            <label for="email" id="email-label">Email Address: (Required)</label>
+          </div>
+          <div class="button-container">
+            <button onclick= "location.href ='questions.html' " type="submit" id="submit">Proceed</button>
+          </div>
+        </form>
+      </main>
+</body>
+</html>
